@@ -18,7 +18,7 @@
 
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%
-%><cq:text property="text1" escapeXml="true" tagClass="text1"
+%><cq:text property="text" escapeXml="true" tagClass="text"
         placeholder="<%= Placeholder.getDefaultPlaceholder(slingRequest, component, null)%>"/>
 <div class="clear"></div>
 <cq:text property="text2" escapeXml="true" tagClass="text2"

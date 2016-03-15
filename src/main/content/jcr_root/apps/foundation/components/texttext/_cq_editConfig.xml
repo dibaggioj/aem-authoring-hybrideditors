@@ -6,7 +6,7 @@
         active="{Boolean}true"
         editorType="hybrid">
         <cq:childEditors jcr:primaryType="nt:unstructured">
-            <text1
+            <text
                 jcr:primaryType="cq:ChildEditorConfig"
                 title="Text1"
                 type="text"/>
@@ -16,10 +16,10 @@
                 type="text"/>
         </cq:childEditors>
         <config jcr:primaryType="nt:unstructured">
-            <text1
+            <text
                 jcr:primaryType="nt:unstructured"
-                name="./text1"
-                propertyName="./text1">
+                name="./text"
+                propertyName="./text">
                 <rtePlugins jcr:primaryType="nt:unstructured">
                     <links jcr:primaryType="nt:unstructured">
                         <linkDialogConfig
@@ -69,7 +69,7 @@
                         jcr:primaryType="nt:unstructured"
                         features="*"/>
                 </rtePlugins>
-            </text1>
+            </text>
             <text2
                 jcr:primaryType="nt:unstructured"
                 name="./text2"
